@@ -1,4 +1,4 @@
-package ru.maxcoulfield.profilevelandroidcource.domain
+package ru.maxcoulfield.profilevelandroidcource.domain.shoplist
 
 class RemoveShopListItemById {
     fun removeShopListItemById(id: Int) {

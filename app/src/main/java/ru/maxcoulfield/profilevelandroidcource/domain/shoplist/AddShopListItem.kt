@@ -1,7 +1,7 @@
-package ru.maxcoulfield.profilevelandroidcource.domain
+package ru.maxcoulfield.profilevelandroidcource.domain.shoplist
 
 class AddShopListItem {
-    fun addShopListItem(item: ShopingItem) {
+    fun addShopListItem(item: ShoppingItem) {
         TODO("implement addShopListItem() logic")
     }
 }

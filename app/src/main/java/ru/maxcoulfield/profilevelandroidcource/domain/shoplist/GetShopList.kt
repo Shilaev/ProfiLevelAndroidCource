@@ -1,8 +1,8 @@
-package ru.maxcoulfield.profilevelandroidcource.domain
+package ru.maxcoulfield.profilevelandroidcource.domain.shoplist
 
 class GetShopList {
 
-    fun getShopList(): List<ShopingItem> {
+    fun getShopList(): List<ShoppingItem> {
         TODO("implement GetShopList() logic")
     }
 }
