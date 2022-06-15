@@ -1,7 +1,7 @@
 package ru.maxcoulfield.profilevelandroidcource.domain.shoplist
 
-class EditShopListItem {
+class EditShopListItem(private val shopList: ShopList) {
     fun editShopListItem(item: ShoppingItem){
-        TODO("implement editShopListItem() logic")
+        shopList.editShopListItem(item)
     }
 }

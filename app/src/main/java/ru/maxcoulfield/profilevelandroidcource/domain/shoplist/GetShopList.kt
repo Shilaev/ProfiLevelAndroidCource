@@ -1,8 +1,7 @@
 package ru.maxcoulfield.profilevelandroidcource.domain.shoplist
 
-class GetShopList {
-
+class GetShopList(private val shopList: ShopList) {
     fun getShopList(): List<ShoppingItem> {
-        TODO("implement GetShopList() logic")
+        return shopList.getShopList()
     }
 }

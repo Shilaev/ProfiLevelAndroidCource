@@ -1,7 +1,7 @@
 package ru.maxcoulfield.profilevelandroidcource.domain.shoplist
 
-class GetShopListItemById {
+class GetShopListItemById(private val shopList: ShopList) {
     fun getShopListItemById(id: Int): ShoppingItem {
-        TODO("implement getShopListItemById() logic")
+        return shopList.getShopListItemById(id)
     }
 }

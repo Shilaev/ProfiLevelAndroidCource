@@ -1,7 +1,7 @@
 package ru.maxcoulfield.profilevelandroidcource.domain.shoplist
 
-class AddShopListItem {
+class AddShopListItem(private val shopList: ShopList) {
     fun addShopListItem(item: ShoppingItem) {
-        TODO("implement addShopListItem() logic")
+        shopList.addShopListItem(item)
     }
 }

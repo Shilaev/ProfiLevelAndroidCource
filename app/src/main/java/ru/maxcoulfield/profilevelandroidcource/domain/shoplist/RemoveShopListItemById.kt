@@ -1,7 +1,7 @@
 package ru.maxcoulfield.profilevelandroidcource.domain.shoplist
 
-class RemoveShopListItemById {
+class RemoveShopListItemById(private val shopList: ShopList) {
     fun removeShopListItemById(id: Int) {
-        TODO("implement removeShopListItem() logic")
+        shopList.removeShopListItemById(id)
     }
 }
